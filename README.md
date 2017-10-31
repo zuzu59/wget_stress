@@ -1,4 +1,4 @@
-# dietpi-clone
+# wget_stress
 Petit script bash tout simple pour stresser un sites web à l'aide d'un wget
 
 # Utilisation
