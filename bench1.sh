@@ -17,7 +17,7 @@ cd poubelle
 for i in `seq 1 $zspeed`;
 do
         echo $i
-	wget -np -p https://www-test.epfl.ch/ --no-check-certificate -o /dev/null&
+	wget -p https://www-test.epfl.ch/index.fr.html --no-check-certificate -o /dev/null -b
 	sleep $zsleep
 done
 
