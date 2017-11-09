@@ -20,6 +20,7 @@ do
 #	wget -p https://www-test.epfl.ch/index.fr.html --no-check-certificate -o /dev/null -b
 	wget https://www-test.epfl.ch/index.fr.html --no-check-certificate -o /dev/null -b
 #	sleep $zsleep
+	../zsleep.sh
 done
 
 
