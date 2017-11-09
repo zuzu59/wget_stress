@@ -1,7 +1,9 @@
 #!/bin/bash
 #petit script tout simple pour monitorer la durée de chargement d'une page web. En fait cela mesure l'expérience utilisateur ;-)
 
-#zf171109.1102
+#zf171109.1212
+
+export TIMEFORMAT="%3R"
 
 znbtests=300
 zspeed=1
@@ -19,8 +21,8 @@ trap finish INT
 
 for i in `seq 1 $znbtests`;
 do
-        time wget -p https://www-test.epfl.ch/index.fr.html --no-check-certificate -o /dev/null
-# --format='le chargement de la page a duré %e secondes' 
+        echo -ne "le chargement de la page à pris "
+	time wget -p https://www-test.epfl.ch/index.fr.html --no-check-certificate -o /dev/null
         sleep 1
 done
 trap - INT
