@@ -3,7 +3,7 @@
 
 #zf171109.1102
 
-znbtests=100
+znbtests=300
 zspeed=1
 
 rm -Rf poubelle
