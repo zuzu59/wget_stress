@@ -2,8 +2,8 @@
 #petit script à lancer pour que cela tourne !
 #zf171101.1716
 
-znbtests=10
-zspeed=10
+znbtests=40
+zspeed=100
 
 rm -Rf poubelle
 mkdir poubelle

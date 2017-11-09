@@ -19,7 +19,7 @@ trap finish INT
 
 for i in `seq 1 $znbtests`;
 do
-        /usr/bin/time --format='le chargement de la page a duré %e secondes' wget -p https://www-test.epfl.ch/index.fr.html --no-check-certificate -o /dev/null -b
+        /usr/bin/time --format='le chargement de la page a duré %e secondes' wget -p https://www-test.epfl.ch/index.fr.html --no-check-certificate -o /dev/null
         sleep 1
 done
 trap - INT
