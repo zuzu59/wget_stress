@@ -6,7 +6,7 @@
 export TIMEFORMAT="%3R"
 
 znbtests=300
-zspeed=1
+zspeed=0.5
 
 rm -Rf poubelle
 mkdir poubelle
