@@ -1,5 +1,6 @@
 #!/bin/bash
-#petit script tout simple pour monitorer la durée de chargement d'une page web
+#petit script tout simple pour monitorer la durée de chargement d'une page web. En fait cela mesure l'expérience utilisateur ;-)
+
 #zf171109.1102
 
 znbtests=100
