@@ -23,7 +23,7 @@ for i in `seq 1 $znbtests`;
 do
         echo -ne "le chargement de la page à pris "
 	time wget -p https://www-test.epfl.ch/index.fr.html --no-check-certificate -o /dev/null
-        sleep 1
+        sleep $zspeed
 done
 trap - INT
 #watch -n 1 "ps ax |grep wget |wc"
