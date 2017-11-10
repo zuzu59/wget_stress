@@ -2,8 +2,8 @@
 #petit script à lancer pour que cela tourne !
 #zf171101.1716
 
-znbtests=20
-zspeed=200
+znbtests=5
+zspeed=400
 
 rm -Rf poubelle
 mkdir poubelle
@@ -21,7 +21,7 @@ do
         ps ax |grep wget |wc
 done
 trap - INT
-watch -n 1 "ps ax |grep wget |wc"
+#watch -n 1 "ps ax |grep wget |wc"
 exit
 
 
