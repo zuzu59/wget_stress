@@ -1,12 +1,12 @@
 #!/bin/bash
 #petit script tout simple pour monitorer la durée de chargement d'une page web. En fait cela mesure l'expérience utilisateur ;-)
 
-#zf171109.1400
+#zf171110.1457
 
 znbtests=600
 zspeed=0.5
 zurl="https://www-test.epfl.ch/index.fr.html"
-zwgetopt="-p"
+zwgetopt="-p -k"
 
 rm -Rf poubelle
 mkdir poubelle
