@@ -2,8 +2,8 @@
 #petit script à lancer pour que cela tourne !
 #zf171101.1716
 
-znbtests=5
-zspeed=400
+znbtests=20
+zspeed=15
 
 rm -Rf poubelle
 mkdir poubelle
@@ -17,7 +17,7 @@ trap finish INT
 
 for i in `seq 1 $znbtests`;
 do
-        /usr/bin/time --format='la commande a duré %e secondes' ./bench1.sh $zspeed
+        /usr/bin/time --format='la commande a duré %e secondes' ./bench1.sh $zspeed 
         ps ax |grep wget |wc
 done
 trap - INT
