@@ -1,7 +1,7 @@
 #!/bin/bash
 #petit script tout simple pour monitorer la durée de chargement d'une page web. En fait cela mesure l'expérience utilisateur ;-)
 
-#zf171110.1457
+#zf171127.1429
 
 znbtests=600
 zspeed=0.5
