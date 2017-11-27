@@ -22,4 +22,6 @@ wget $zwgetopt $1 --no-check-certificate -o /dev/null
 zt2=`date +%s.%N`
 
 zduree=`jq -n $zt2-$zt1`
-echo -e $ztime" "$zduree
+echo -e $ztime" "$zduree > duree.txt
+
+
