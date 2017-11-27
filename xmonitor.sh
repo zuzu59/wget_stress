@@ -5,7 +5,7 @@
 
 znbtests=600
 zspeed=0.5
-zurl="https://www-test.epfl.ch/index.fr.html"
+zurl="http://www-test.epfl.ch/index.fr.html"
 zwgetopt="-p -k"
 
 rm -Rf poubelle
