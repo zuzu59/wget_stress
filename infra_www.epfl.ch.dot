@@ -1,0 +1,23 @@
+digraph G {
+        bgcolor=azure;
+        node [shape=box, color=lightblue2, style=filled];
+        edge [arrowsize=2, color=gold];
+        www -> SLB [label="https"];
+        SLB -> Home1 [label="http"];
+        SLB -> Home2 [label="http"];
+        SLB -> Static1 [label="http"];
+        SLB -> Static2 [label="http"];
+        www -> qi [label="https"];
+        www -> google [label="https"];
+        www -> twitter [label="https"];
+
+        www [label="https://www.epfl.ch"];
+        Home1 [label="Home1\n\nexopgesrv75\n2x cores\n4GB RAM\nmax 512 clients"];
+        Home2 [label="Home2\n\nexopgesrv76\n2x cores\n4GB RAM\nmax 512 clients"];
+        Static1 [label="Static1\n\nkissrv104\n1x cores\n2GB RAM\nmax ? clients"];
+        Static2 [label="Static2\n\nkissrv105\n1x cores\n2GB RAM\nmax ? clients"];
+        qi [label="qi.epfl.ch"];
+        twitter [label="twitter & twimg"];
+        google [label="google analytics"];
+}
+
