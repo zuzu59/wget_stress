@@ -4,7 +4,7 @@
 
 zurl="https://www-test.epfl.ch/index.fr.html"
 zspeed=50
-znbtests=5
+znbtests=15
 
 echo -e "./zbench.sh "$zurl $zspeed $znbtests
 ./zbench.sh $zurl $zspeed $znbtests
