@@ -2,7 +2,7 @@
 #petit script à lancer pour que cela tourne !
 #zf171127.1456
 
-zurl="https://www-test.epfl.ch/index.fr.html"
+zurl="https://www.epfl.ch/index.fr.html"
 zspeed=50
 znbtests=15
 
