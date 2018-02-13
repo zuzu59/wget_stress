@@ -5,7 +5,8 @@
 sudo pkill -9 wget
 
 zurl="https://test-www-backend.epfl.ch/index.fr.html"
-zspeed=30
+#zurl="https://test-www-proxy.epfl.ch/index.fr.html"
+zspeed=40
 znbtests=10
 
 echo -e "./zbench.sh "$zurl $zspeed $znbtests
