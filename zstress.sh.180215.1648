@@ -28,6 +28,5 @@ for i in `seq 1 $zspeed`;
 do
 #        echo $i
 	./zwget.sh $zurl &
-#	sleep $zsleep
-	./zsleep.sh 10
+	sleep $zsleep
 done

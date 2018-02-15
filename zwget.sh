@@ -1,6 +1,6 @@
 #!/bin/bash
 #petit script tout simple qui lance un wget et mesure le temps passé
-#zf171127.1340
+#zf180215.1622
 
 # Teste si les arguments sont bien passés
 if (( $# < 1 ))
@@ -12,7 +12,8 @@ fi
 #time stamp du test
 ztime=`date +%Y%m%d.%H%M%S-%N`
 #wget options
-zwgetopt="-p -k"
+#zwgetopt="-p -k"
+zwgetopt="-p -k --header='Accept-Encoding: gzip'"
 
 mkdir -p ./poubelle/$ztime
 cd ./poubelle/$ztime
