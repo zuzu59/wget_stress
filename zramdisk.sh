@@ -6,6 +6,6 @@
 rm -Rf ./poubelle
 mkdir ./poubelle
 
-sudo mount -t tmpfs -o size=1500M tmpfs ./poubelle/
+sudo mount -t tmpfs -o size=1900M tmpfs ./poubelle/
 df -h
 
