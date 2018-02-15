@@ -29,5 +29,5 @@ do
 #        echo $i
 	./zwget.sh $zurl &
 #	sleep $zsleep
-	./zsleep.sh 400
+	./zsleep.sh 900
 done
