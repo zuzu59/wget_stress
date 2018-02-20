@@ -1,7 +1,9 @@
 #!/bin/bash
 #petit script pour créer un ramdisk
-#zf180215.1635
+#zf180220.1636
 
+sudo umount ./poubelle/
+sleep 1
 
 rm -Rf ./poubelle
 mkdir ./poubelle
