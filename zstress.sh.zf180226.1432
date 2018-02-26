@@ -28,15 +28,6 @@ for i in `seq 1 $zspeed`;
 do
 #        echo $i
 	./zwget.sh $zurl &
-	sleep $zsleep
-#	./zsleep.sh 1
-
-
-#typeset -i mCnt=0
-#while [[ ${mCnt} -le 400 ]]; do
-#  mCnt=${mCnt}+1
-#done
-
-
-
+#	sleep $zsleep
+	./zsleep.sh 1
 done
