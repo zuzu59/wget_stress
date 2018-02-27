@@ -1,6 +1,6 @@
 #!/bin/bash
 #petit script pour lancer une campagne de stress sur une site web
-#zf171127.1453
+#zf171127.1515
 
 
 # Teste si les arguments sont bien passés
@@ -33,8 +33,11 @@ trap - INT
 #watch -n 1 "ps ax |grep wget |wc"
 #exit
 
-read -p "appuyer une touche pour continuer"
-watch -n 1 "ps ax |grep wget |wc"
+echo "Tests terminés !"
+sleep 3
+
+#read -p "appuyer une touche pour continuer"
+#watch -n 1 "ps ax |grep wget |wc"
 
 ./zdisplay.sh
 

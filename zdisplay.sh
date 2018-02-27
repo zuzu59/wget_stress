@@ -1,8 +1,8 @@
 #!/bin/bash
 #petit script pour afficher les durées de chargement des pages chargées
-#zf180227.1510
+#zf180227.1513
 
-find ./poubelle -name duree.txt -exec cat {} \; | sort -n -k 2
+find ./poubelle -name duree.txt -exec cat {} \; | sort -n -k 2 |tail -n 200
 
 echo -e "Nombre de tests: \c"
 find ./poubelle -name duree.txt -exec cat {} \; |wc

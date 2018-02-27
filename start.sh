@@ -10,7 +10,7 @@ zurl="https://test-www-backend.epfl.ch/index.fr.html"
 #zurl="https://test-www-proxy.epfl.ch/index.fr.html"
 #zurl="https://www.epfl.ch/index.fr.html"
 zspeed=70
-znbtests=10
+znbtests=20
 
 echo -e "./zbench.sh "$zurl $zspeed $znbtests
 ./zbench.sh $zurl $zspeed $znbtests
