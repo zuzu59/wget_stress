@@ -1,8 +1,7 @@
 #!/bin/bash
 #petit script pour arrêter le service Apache
-#zf180227.1149
+#zf180227.1429
 
-sudo apachectl stop
-sudo apachectl status
-netstat -nat |grep LIST
+watch -n 10 "sudo apachectl stop ; sudo apachectl status ; netstat -nat |grep LIST"
+
 
