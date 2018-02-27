@@ -9,7 +9,7 @@ sleep 2
 zurl="https://test-www-backend.epfl.ch/index.fr.html"
 #zurl="https://test-www-proxy.epfl.ch/index.fr.html"
 #zurl="https://www.epfl.ch/index.fr.html"
-zspeed=35
+zspeed=80
 znbtests=120
 
 echo -e "./zbench.sh "$zurl $zspeed $znbtests

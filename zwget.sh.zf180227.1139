@@ -19,8 +19,7 @@ mkdir -p ./poubelle/$ztime
 cd ./poubelle/$ztime
 
 zt1=`date +%s.%N`
-#wget $zwgetopt $1 --no-check-certificate -o /dev/null
-wget $zwgetopt $1 -o /dev/null
+wget $zwgetopt $1 --no-check-certificate -o /dev/null
 zt2=`date +%s.%N`
 
 zduree=`jq -n $zt2-$zt1`
