@@ -1,3 +1,9 @@
+.DS_Store
+../.DS_Store
+../../.DS_Store
+../../../.DS_Store
+../../../../.DS_Store
+
 result.csv
 .DS_Store*
 poubelle*
